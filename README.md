@@ -103,7 +103,7 @@ yarn dev
 
 ## 🌍 Live Demo
 
-👉 https://portfolio-mehedi-ci5exufcu-mehedis-projects-888b0960.vercel.app
+👉 https://portfolio-mehedi-theta.vercel.app
 
 ---
 
