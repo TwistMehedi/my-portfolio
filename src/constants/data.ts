@@ -88,21 +88,30 @@ export const personalData = {
       image:
         "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&q=80&w=800",
     },
-    // {
-    //   id: "video-interview",
-    //   title: "Video Interview Tool",
-    //   subtitle: "PeerJS Powered Communication",
-    //   description:
-    //     "A real-time video interviewing platform using PeerJS for seamless peer-to-peer communication.",
-    //   techStack: ["React", "PeerJS", "Socket.io", "Express", "Node.js"],
-    //   liveLink: "https://video-interview-tool.com",
-    //   githubLink: "https://github.com/TwistMehedi/video-tool",
-    //   challenges:
-    //     "Handling network latency and ensuring stable peer connections across different network environments.",
-    //   futurePlans:
-    //     "Integrating real-time code execution and shared whiteboard features for technical rounds.",
-    //   image:
-    //     "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&q=80&w=800",
-    // },
+    {
+      id: "video-interview",
+      title: "Video Interview Tool Cumming Soon",
+      subtitle: "Socket.io Powered Communication",
+      description:
+        "A real-time video interviewing platform using Socket.io for seamless peer-to-peer communication.",
+      techStack: [
+        "Next.js",
+        "Socket.io",
+        "Express",
+        "Node.js",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "jwt",
+      ],
+      liveLink: "",
+      githubLink: "",
+      challenges:
+        "Handling network latency and ensuring stable peer connections across different network environments.",
+      futurePlans:
+        "Integrating real-time code execution and shared whiteboard features for technical rounds.",
+      image:
+        "https://i.ibb.co.com/gF3RTF7X/Gemini-Generated-Image-y1hik8y1hik8y1hi.png",
+    },
   ],
 };

@@ -27,13 +27,18 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h3 className="text-2xl font-bold mb-6 text-blue-400">My Journey</h3>
+              <h3 className="text-2xl font-bold mb-6 text-blue-400">
+                My Journey
+              </h3>
               <p className="text-slate-400 text-lg leading-relaxed mb-6">
                 {personalData.about.journey}
               </p>
               <div className="flex flex-wrap gap-4">
                 {personalData.about.hobbies.map((hobby) => (
-                  <span key={hobby} className="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700 text-slate-300">
+                  <span
+                    key={hobby}
+                    className="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700 text-slate-300"
+                  >
                     #{hobby}
                   </span>
                 ))}
@@ -47,25 +52,25 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="grid grid-cols-2 gap-4"
             >
-              <AboutCard 
-                icon={<Code2 className="text-blue-400" />} 
-                title="SaaS Dev" 
-                desc="Building scalable cloud solutions" 
+              <AboutCard
+                icon={<Code2 className="text-blue-400" />}
+                title="SaaS Dev"
+                desc="Building scalable cloud solutions"
               />
-              <AboutCard 
-                icon={<Rocket className="text-indigo-400" />} 
-                title="Fast Learner" 
-                desc="Always exploring new tech stack" 
+              <AboutCard
+                icon={<Rocket className="text-indigo-400" />}
+                title="Fast Learner"
+                desc="Always exploring new tech stack"
               />
-              <AboutCard 
-                icon={<Globe className="text-blue-400" />} 
-                title="Global View" 
-                desc="Passionate about global tech" 
+              <AboutCard
+                icon={<Globe className="text-blue-400" />}
+                title="Global View"
+                desc="Passionate about global tech"
               />
-              <AboutCard 
-                icon={<Heart className="text-indigo-400" />} 
-                title="Hobbies" 
-                desc="Traveling & Photography" 
+              <AboutCard
+                icon={<Heart className="text-indigo-400" />}
+                title="Hobbies"
+                desc="Traveling & Photography"
               />
             </motion.div>
           </div>
@@ -75,7 +80,15 @@ export default function About() {
   );
 }
 
-function AboutCard({ icon, title, desc }: { icon: React.ReactNode, title: string, desc: string }) {
+function AboutCard({
+  icon,
+  title,
+  desc,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  desc: string;
+}) {
   return (
     <div className="p-6 bg-slate-800/50 border border-slate-700 rounded-2xl hover:border-blue-500/50 transition-colors">
       <div className="mb-4">{icon}</div>
